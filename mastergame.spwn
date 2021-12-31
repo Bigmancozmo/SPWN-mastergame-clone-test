@@ -1,0 +1,10 @@
+invis = 1g
+player = 2g
+
+on(touch(), !{
+    player.move(10, 0, 0.5)
+})
+
+on(touch_end(), !{
+    player.move(10, 0, 0.5)
+})
